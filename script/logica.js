@@ -309,18 +309,18 @@ return [n1.length, n2.length, n3.length]
 }
 */
 
-/* var qtdDiaria, anosFumados, idade, qndComecou, diasFumados, totalFumados, perdaVida, diasPerdidos = ("")
+/*var qtdDiaria, anosFumados, idade, qndComecou, diasFumados, totalFumados, perdaVida, diasPerdidos = ("")
 
-// idade = parseInt(prompt("Insira sua idade aqui: "))
-// qtdDiaria = parseInt(prompt("Insira quantidade diaria de cigarros que você consome: "))
-// qndComecou = parseInt(prompt("Com quantos anos começou a fumar ? "))
-// anosFumados = (idade - qndComecou)
-// diasFumados = (anosFumados*365)
-// totalFumados = (diasFumados*qtdDiaria)
-// perdaVida = ((totalFumados*10)/60)
-// diasPerdidos = (perdaVida/24)
-// alert("Você ja fumou um total de " + diasFumados + " dias. Um total de " + totalFumados + " cigarros")
-// alert("A quantidade fumado lhe fez perder " + perdaVida + " Horas de vida. Um total de " + diasPerdidos + " dias")
+    idade = parseInt(prompt("Insira sua idade aqui: "))
+    qtdDiaria = parseInt(prompt("Insira quantidade diaria de cigarros que você consome: "))
+    qndComecou = parseInt(prompt("Com quantos anos começou a fumar ? "))
+    anosFumados = (idade - qndComecou)
+    diasFumados = (anosFumados*365)
+    totalFumados = (diasFumados*qtdDiaria)
+    perdaVida = ((totalFumados*10)/60)
+    diasPerdidos = (perdaVida/24)
+alert("Você ja fumou um total de " + diasFumados + " dias. Um total de " + totalFumados + " cigarros")
+alert("A quantidade fumado lhe fez perder " + perdaVida + " Horas de vida. Um total de " + diasPerdidos + " dias")
 */
 
 

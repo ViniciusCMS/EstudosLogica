@@ -246,8 +246,7 @@ var n = ("")
 */
 
 
- 
- /* Esse array é utilizado dentro das funções. Cada placa neste array representa uma entrada do respectivo veículo no estacionamento. Não é necessário alterar esse array. 
+/* Esse array é utilizado dentro das funções. Cada placa neste array representa uma entrada do respectivo veículo no estacionamento. Não é necessário alterar esse array. 
  var placas = [
      'RXB-2525', 'AKX-3333', 'ORO-7142', 'RXB-2525',
      'AKX-3333', 'ORO-7142', 'AKX-3333', 'RXB-2525',

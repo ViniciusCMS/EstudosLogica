@@ -321,7 +321,7 @@ alert("Você ja fumou um total de " + diasFumados + " dias. Um total de " + tota
 alert("A quantidade fumado lhe fez perder " + perdaVida + " Horas de vida. Um total de " + diasPerdidos + " dias")
 */
 
-/*
+/*Questão 17
 var vlcAtual, multa = ("");
     vlcAtual = parseInt(prompt("Velocidade do veiculo em km/h:"));
     multa = ((vlcAtual - 80)*5)
@@ -330,7 +330,7 @@ var vlcAtual, multa = ("");
     }
 */
 
-/*
+/*Questão 18
 var idade, ano, votar = ("");
     ano = parseInt(prompt("Insira seu ano de nascimento: "));
     idade = parseInt(2023 - ano);
@@ -341,7 +341,7 @@ if(idade>= 16){
 }
 */
 
-/*
+/*Questão 19
 var nome, nota1, nota2, media, aprovacao= ("");
     nome = prompt("Insira seu nome: ");
     nota1 = parseFloat(prompt("Insira a nota da primeia avaliação: "));
@@ -355,7 +355,7 @@ var nome, nota1, nota2, media, aprovacao= ("");
     }
 */
 
-/*
+/*Questão 20
 var numero, verif = ("")
     numero = parseInt(prompt("Insira um numero inteiro qualquer. "))
     verif = (numero/2)
@@ -366,7 +366,7 @@ if(Number.isInteger(verif)){
 }
 */
 
-/*
+/*Questão 21
 var ano = ('');
     ano = parseInt(prompt("Insia um ano qualquer"));
     if(ano % 4 == 0 && ano % 100 != 0){
@@ -378,7 +378,7 @@ var ano = ('');
     }
 */
 
-/*
+/*Questão 22
 var nome, ano = ('');
     nome = prompt("Insira seu nome: ");
     ano = parseInt(prompt("Insira seu ano de nascimento: "));
@@ -387,5 +387,18 @@ if(idade>= 18){
     alert("Processo de alistamento obrigatorio para o cidadão de nome: " + nome)
 }else{
     alert("Processo de alistamento obrigatorio não é necessario")
+}
+*/
+/*Questão 23
+var nome, sexo, valorTotal, desconto = ('');
+    nome = prompt("Insira seu nome aqui: ");
+    sexo = prompt("Insira o sexo que voce se identifica\n Masculino = M \n Feminino = F");
+    valorTotal = parseFloat(prompt("Insira o valor da compra para obter o desconto"));
+if(sexo == "M"){
+    desconto = (valorTotal *0.05)
+    alert(desconto)
+}else if(sexo== "F"){
+    desconto =(valorTotal*0.13)
+    alert(desconto)
 }
 */

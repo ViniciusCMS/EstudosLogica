@@ -357,6 +357,5 @@ if(Number.isInteger(verif)){
     alert("O numero inserio anteriormente é impar")
 }
 */
-var hora = new Date();
-var ano = hora.getUTCFullYear();
-alert(ano)
+var ano = ("");
+if (ano%4==0 && ano%100 != 0 )

@@ -307,7 +307,6 @@ function calculaGostos(notas){
 return [n1.length, n2.length, n3.length]
 }
 */
-
 /*var qtdDiaria, anosFumados, idade, qndComecou, diasFumados, totalFumados, perdaVida, diasPerdidos = ("")
 
     idade = parseInt(prompt("Insira sua idade aqui: "))
@@ -321,5 +320,43 @@ return [n1.length, n2.length, n3.length]
 alert("Você ja fumou um total de " + diasFumados + " dias. Um total de " + totalFumados + " cigarros")
 alert("A quantidade fumado lhe fez perder " + perdaVida + " Horas de vida. Um total de " + diasPerdidos + " dias")
 */
-
-
+ /*var vlcAtual, multa = ("");
+    vlcAtual = parseInt(prompt("Velocidade do veiculo em km/h:"));
+    multa = ((vlcAtual - 80)*5)
+    if(vlcAtual>80){
+        alert("O veiculo ultrapassa a velocidade maxima, multa emitida no valor de: R$" + multa + ",00")
+    }
+*/
+/*var idade, ano, votar = ("");
+    ano = parseInt(prompt("Insira seu ano de nascimento: "));
+    idade = parseInt(2023 - ano);
+if(idade>= 16){
+    alert("Você ja está apto para votar")
+}else{
+    alert("Sua idade ainda não pemite paticipar do processo eleitoral")
+}
+*/
+/*var nome, nota1, nota2, media, aprovacao= ("");
+    nome = prompt("Insira seu nome: ");
+    nota1 = parseFloat(prompt("Insira a nota da primeia avaliação: "));
+    nota2 = parseFloat(prompt("Insira a nota da segunda avaliação: "));
+    media = ((nota1 + nota2)/2);
+    alert("Aluno: " + nome +". " + "Media: " + media)
+    if(media>=7){
+        alert("O aluno " + nome + " foi aprovado")
+    }else{
+        alert("O aluno " + nome + " foi reprovado")
+    }
+*/
+/*var numero, verif = ("")
+    numero = parseInt(prompt("Insira um numero inteiro qualquer. "))
+    verif = (numero/2)
+if(Number.isInteger(verif)){
+    alert("O numero inserio anteriormente é par")
+}else{
+    alert("O numero inserio anteriormente é impar")
+}
+*/
+var hora = new Date();
+var ano = hora.getUTCFullYear();
+alert(ano)

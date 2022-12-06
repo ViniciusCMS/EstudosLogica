@@ -152,9 +152,6 @@ alert ("O funcionario " + funcionario + " Trabalhou um total de " + horas + " ho
 okay
 */
 
-//Questão 16
-
-
 /*Condicional 1
 var nome, ano, idade = ("")
     nome = prompt("Insira seu nome: ")
@@ -247,7 +244,7 @@ var n = ("")
 
 
 /* Esse array é utilizado dentro das funções. Cada placa neste array representa uma entrada do respectivo veículo no estacionamento. Não é necessário alterar esse array. 
- var placas = [
+var placas = [
      'RXB-2525', 'AKX-3333', 'ORO-7142', 'RXB-2525',
      'AKX-3333', 'ORO-7142', 'AKX-3333', 'RXB-2525',
      'AKX-3333', 'AKX-3333', 'RXB-2525', 'AKX-3333',
@@ -289,7 +286,8 @@ return debito
 }
 */
 
-/*var notas = [1,0,1,3,3,5]
+/*
+var notas = [1,0,1,3,3,5]
 
 function calculaGostos(notas){
     var n1 = []
@@ -307,7 +305,9 @@ function calculaGostos(notas){
 return [n1.length, n2.length, n3.length]
 }
 */
-/*var qtdDiaria, anosFumados, idade, qndComecou, diasFumados, totalFumados, perdaVida, diasPerdidos = ("")
+
+/*Questão16
+var qtdDiaria, anosFumados, idade, qndComecou, diasFumados, totalFumados, perdaVida, diasPerdidos = ("")
 
     idade = parseInt(prompt("Insira sua idade aqui: "))
     qtdDiaria = parseInt(prompt("Insira quantidade diaria de cigarros que você consome: "))
@@ -320,14 +320,18 @@ return [n1.length, n2.length, n3.length]
 alert("Você ja fumou um total de " + diasFumados + " dias. Um total de " + totalFumados + " cigarros")
 alert("A quantidade fumado lhe fez perder " + perdaVida + " Horas de vida. Um total de " + diasPerdidos + " dias")
 */
- /*var vlcAtual, multa = ("");
+
+/*
+var vlcAtual, multa = ("");
     vlcAtual = parseInt(prompt("Velocidade do veiculo em km/h:"));
     multa = ((vlcAtual - 80)*5)
     if(vlcAtual>80){
         alert("O veiculo ultrapassa a velocidade maxima, multa emitida no valor de: R$" + multa + ",00")
     }
 */
-/*var idade, ano, votar = ("");
+
+/*
+var idade, ano, votar = ("");
     ano = parseInt(prompt("Insira seu ano de nascimento: "));
     idade = parseInt(2023 - ano);
 if(idade>= 16){
@@ -336,7 +340,9 @@ if(idade>= 16){
     alert("Sua idade ainda não pemite paticipar do processo eleitoral")
 }
 */
-/*var nome, nota1, nota2, media, aprovacao= ("");
+
+/*
+var nome, nota1, nota2, media, aprovacao= ("");
     nome = prompt("Insira seu nome: ");
     nota1 = parseFloat(prompt("Insira a nota da primeia avaliação: "));
     nota2 = parseFloat(prompt("Insira a nota da segunda avaliação: "));
@@ -348,7 +354,9 @@ if(idade>= 16){
         alert("O aluno " + nome + " foi reprovado")
     }
 */
-/*var numero, verif = ("")
+
+/*
+var numero, verif = ("")
     numero = parseInt(prompt("Insira um numero inteiro qualquer. "))
     verif = (numero/2)
 if(Number.isInteger(verif)){
@@ -357,5 +365,27 @@ if(Number.isInteger(verif)){
     alert("O numero inserio anteriormente é impar")
 }
 */
-var ano = ("");
-if (ano%4==0 && ano%100 != 0 )
+
+/*
+var ano = ('');
+    ano = parseInt(prompt("Insia um ano qualquer"));
+    if(ano % 4 == 0 && ano % 100 != 0){
+        alert('ano bissexto')
+    }else if(ano % 400 == 0){
+        alert('ano bissexto')
+    }else{
+        alert('ano nao bissexto')
+    }
+*/
+
+/*
+var nome, ano = ('');
+    nome = prompt("Insira seu nome: ");
+    ano = parseInt(prompt("Insira seu ano de nascimento: "));
+    idade = parseInt(2023 - ano);
+if(idade>= 18){
+    alert("Processo de alistamento obrigatorio para o cidadão de nome: " + nome)
+}else{
+    alert("Processo de alistamento obrigatorio não é necessario")
+}
+*/

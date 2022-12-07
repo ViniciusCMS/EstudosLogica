@@ -402,3 +402,12 @@ if(sexo == "M"){
     alert(desconto)
 }
 */
+var viagem, valor = ('');
+    viagem = parseFloat(prompt("Insira a distancia estimada de sua viagem"));
+if(viagem<=200){
+    valor = (viagem*0.5)
+    alert("O valor da passagem é de: " +valor)
+}else if(viagem>200){
+    valor = (viagem*0.45)
+    alert("O valor da passagem é de: " +valor)
+}

@@ -402,6 +402,7 @@ if(sexo == "M"){
     alert(desconto)
 }
 */
+/*Questão 24
 var viagem, valor = ('');
     viagem = parseFloat(prompt("Insira a distancia estimada de sua viagem"));
 if(viagem<=200){
@@ -411,3 +412,15 @@ if(viagem<=200){
     valor = (viagem*0.45)
     alert("O valor da passagem é de: " +valor)
 }
+*/
+/*Questão 25
+var a1, a2, a3 = ('');
+    a1 =  parseInt(prompt("Insira o valor da primeira aresta do triangulo"));
+    a2 =  parseInt(prompt("Insira o valor da segunda aresta do triangulo"));
+    a3 =  parseInt(prompt("Insira o valor da terceira aresta do triangulo"));
+if(a1<=(a2+a3) && a2<=(a1+a3) && a3<=(a1+a2)){
+    alert("O triangulo sera formado sem complicações")
+}else{
+    alert("As arestas nao se encaixam para formar um triangulo")
+}
+*/
